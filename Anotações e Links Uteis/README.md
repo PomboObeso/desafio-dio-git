@@ -4,8 +4,8 @@
 
 ##### Além do arquivo TXT acima com os principais tópicos e anotações temos também alguns links úteis a ser mencionados !  :file_folder:
 
-- [Documentação Markdown :books: ]([Markdown® Básico: Sintaxe, Uso & Exemplos [Passo a Passo\]](https://markdown.net.br/sintaxe-basica/))
-- [Typora (Link para Download) :information_source: ]([Typora — a markdown editor, markdown reader.](https://typora.io/))
+- [Documentação Markdown :books: ](https://markdown.net.br/sintaxe-basica/)
+- [Typora (Link para Download) :information_source: ](https://typora.io/)
 
 
 
