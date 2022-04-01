@@ -1,0 +1,42 @@
+Curiosidade - Git foi criado pelo Linus Tolvads; Git != Github
+
+-- Comandos básicos para terminal:
+
+- cd : muda de pasta
+- dir/ls: lista arquivos do diretório
+- cls/clear: limpa o terminal
+- mkdir: cria uma pasta
+- del: deleta todos os arquivos de uma pasta
+- rmdir: apaga uma pasta 
+- rm -rf: apaga em sistemas Linux
+
+-- Chave SSH
+--- sempre usar o git bash ---
+
+-criar chave: ssh-keygen -t edd25519 -C emaildogit@any.com
+ -criar uma senha para chave
+ -pegando a chave: cd /c/Users/NomeUsuario/.ssh seguido de cat id_edd25519.pub
+ -copia a chave pública e joga no github
+-eval $(ssh-agent -s): processo que mantem a chave ativa no sistema
+-ssh-add id_ed25519: configurando a chave privada para comunicar com a pub
+ -colocar a senha da chave privada
+-clonar os repositórios sempre como ssh no github
+-colocar yes na primeira vez que usar
+
+-- Token de acesso pessoal
+
+-Developer Settings > Personal Access tokens>Generate new token
+-Marcar a opção repo
+-generate tokens
+-copiar e salvar em local seguro 
+
+-- Comandos git iniciantes
+
+- git init
+- git add . OU git add *
+- git commit -m "Comentario do Commit"
+	: ls -a -> mostra arquivos e diretórios ocultos
+- git remote add origin <<link ssh ou https do repositório do github>>
+- git push origin master -> origin é o apelhido dado ao link/chave do repo e master
+  é a branch que estamos trabalhando
+
